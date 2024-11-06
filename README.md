@@ -10,7 +10,7 @@ The parcel cache was playing tricks on me so watch out.
 This change is in Github main now, but not released yet
 https://github.com/annotorious/annotorious/blob/main/packages/annotorious-react/src/openseadragon/index.ts#L3
 
-I cloned the plugin Github, added the line, and ran `npm pack`.
+I cloned the @annotorious/react plugin in a separete directory from Github, added the line, and ran `npm pack`.
 
 Then, I could include the following in `package.json`:
 ```
