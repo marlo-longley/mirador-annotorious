@@ -13,3 +13,5 @@ Then, I could include the following in `package.json`:
 ```
 "@annotorious/react": "file:../annotorious/packages/annotorious-react/annotorious-react-3.0.11.tgz",
 ```
+
+Inspired by https://github.com/rsimon/mirador-annotorious 
