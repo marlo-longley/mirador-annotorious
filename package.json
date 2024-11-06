@@ -1,0 +1,19 @@
+{
+    "name": "test-annotorious",
+    "version": "0.1.0",
+    "description": "An annotation plugin to the Mirador IIIF multi-image viewer based on Annotorious",
+    "dependencies": {
+        "@annotorious/react": "file:../annotorious/packages/annotorious-react/annotorious-react-3.0.11.tgz",
+        "mirador": "^3.3.0",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "devDependencies": {
+        "parcel": "^2.0.1",
+        "process": "^0.11.10"
+    },
+    "scripts": {
+        "start": "parcel serve ./index.html",
+        "build": "parcel build ./index.html"
+    }
+}
